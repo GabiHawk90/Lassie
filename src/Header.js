@@ -1,6 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import './Header.css'
+import AddBoxIcon from '@material-ui/icons/AddBox';
+import Tooltip from '@material-ui/core/Tooltip';
+import AccountBoxIcon from '@material-ui/icons/AccountBox';
 
 function Header() {
     return (
@@ -15,16 +18,28 @@ function Header() {
             </div>
 
             <div className="header_right">
-                <Link to="/profile"> 
-                <div className="header_option">
-                    Profile 
-                </div>
-                </Link>
+                
                 <Link to="/signup"> 
                 <div className="header_option">
-                    Sign Up
+                    Sign In
                     </div>
                 </Link>
+
+                <Tooltip title="Add a New Post!" arrow>
+                <Link to="/createpost"> 
+                <div className="header_option">
+                    <AddBoxIcon title="Add post"/>
+                    </div>
+                </Link>
+                </Tooltip>
+
+                <Tooltip title="Your Account" arrow>
+                <Link to="/profile"> 
+                <div className="header_option">
+                        <AccountBoxIcon />
+                    </div>
+                </Link>
+                </Tooltip>
             </div>
         </div>
     )

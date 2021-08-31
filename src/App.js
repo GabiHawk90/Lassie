@@ -4,6 +4,7 @@ import Home from './Home';
 import SignUp from './SignUp';
 import Profile from './Profile';
 import Header from './Header';
+import CreatePost from './CreatePost';
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
         </Route>
         <Route path="/profile">
             <Profile />
+        </Route>
+        <Route path="/createpost">
+            <CreatePost />
         </Route>
 
         {/* Gotta keep this one on the bottom */}
