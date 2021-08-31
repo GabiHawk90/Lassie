@@ -7,8 +7,10 @@ function Header() {
         <div className="header">
             <div className="header_left">
                 <Link to="/">
-                    {/* this image is trademarked and we have to replace it but this for now lol */}
-                    <img src="" alt="logo" />
+                    <img 
+                    className="header_logo"
+                    src="https://fontmeme.com/permalink/210901/ff5c0e67728860698b0f5aec024fd393.png" 
+                    alt="logo" />
                 </Link>
             </div>
 
