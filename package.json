@@ -1,0 +1,10 @@
+{
+  "name": "Lassie",
+  "version": "1.0.0",
+  "dependencies": {
+    "react-router": "^5.2.1"
+  },
+  "devDependencies": {
+    "react-router-dom": "^5.2.1"
+  }
+}
