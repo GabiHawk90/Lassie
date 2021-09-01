@@ -1,0 +1,31 @@
+.header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: darkslategray;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.header_left {
+    margin-left: 1rem;
+}
+
+.header_right {
+    display: flex;
+
+}
+
+.header_logo {
+    width: 100px;
+    object-fit: contain;
+    margin: 0 1.5rem;
+}
+
+.header_option {
+    color: white;
+    text-decoration: none !important;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
