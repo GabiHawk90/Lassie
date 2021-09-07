@@ -12,7 +12,6 @@ function SignUp() {
                     src="https://fontmeme.com/permalink/210901/ff5c0e67728860698b0f5aec024fd393.png" 
                     alt="logo" />
                 </Link>
-
                 <h1>Sign-in</h1>
                 <form action="">
                     <h5>Email</h5>
@@ -40,7 +39,6 @@ function SignUp() {
                 By signing-in you agree to Lassie, Lassie Conditions of Use & Sale. Please
                 see our Privacy Notice, our Cookies Notice and our Interest-Based Ads Notice.
                 </p>
-
 
                 <button 
                     // onClick={ register }
