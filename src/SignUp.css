@@ -16,9 +16,11 @@
   object-fit: contain;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  object-fit: contain;
 }
 
-
-.login_signInButton {
+.SignUp_SignInButton {
   display: flex;
+  width: 100%;
+  text-align: center;
 }

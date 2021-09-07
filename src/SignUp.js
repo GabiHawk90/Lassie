@@ -28,7 +28,7 @@ function SignUp() {
                     />
                     <button 
                         // onClick={ signIn }
-                        className="login_signInButton"
+                        className="SignUp_SignInButton"
                         type='submit'
                     >
                         Sign In
@@ -42,7 +42,7 @@ function SignUp() {
 
                 <button 
                     // onClick={ register }
-                    className="login_registerButton">
+                    className="SignUp_RegisterButton">
                     Create your Lassie Account
                 </button>
             </div>
