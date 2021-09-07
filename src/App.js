@@ -10,20 +10,22 @@ function App() {
   return (
     <Router>
     <div className="App">
-    <Header />
       <Switch>
-        <Route path="/signup">
+        <Route path="/signup"> 
             <SignUp />
         </Route>
         <Route path="/profile">
+            <Header />
             <Profile />
         </Route>
         <Route path="/createpost">
+            <Header />
             <CreatePost />
         </Route>
 
         {/* Gotta keep this one on the bottom */}
         <Route path="/">
+            <Header />
             <Home />
         </Route>
       </Switch>

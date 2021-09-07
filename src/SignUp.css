@@ -1,0 +1,24 @@
+.SignUp {
+  text-align: center;
+}
+
+.SignUp_Container {
+  background-color: dimgray;
+  max-width: 33%;
+  margin: 5rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.SignUp_Logo {
+  max-width: 33%;
+  object-fit: contain;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+
+.login_signInButton {
+  display: flex;
+}
